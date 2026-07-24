@@ -1,0 +1,26 @@
+generated: '2026-07-18'
+method: searched
+source: https://goclicks.ai/changelog
+scheme: semver-minor
+current_version: v2.4
+entries:
+- version: v2.4
+  date: '2026-04-13'
+  title: Dashboard redesign
+  breaking: false
+  highlights:
+  - Redesigned user dashboard with updated brand design for clearer navigation and status visibility
+- version: v2.2
+  date: '2026-02-20'
+  title: SSO and agent scheduling
+  breaking: false
+  highlights:
+  - Added SAML SSO support for Okta, Azure AD, and Google Workspace
+  - Improved agent scheduling with custom time windows and blackout periods
+- version: v2.1
+  date: '2026-01-25'
+  title: Revenue Cycle Management launch
+  breaking: false
+  highlights:
+  - Introduced the RCM vertical with insurance verification and claims status checking agents
+  - HIPAA-compliant data handling with end-to-end encryption for PHI

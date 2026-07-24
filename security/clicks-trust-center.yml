@@ -1,0 +1,17 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://www.goclicks.ai/security
+url: https://www.goclicks.ai/security
+certifications:
+- SOC 2
+- HIPAA
+- GDPR
+evidence:
+- source: https://www.goclicks.ai/security
+  keywords:
+  - soc 2
+  - soc2
+  - hipaa
+  - compliance certification
+  - gdpr

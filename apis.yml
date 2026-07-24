@@ -1,8 +1,29 @@
 aid: clicks
 name: Clicks
-description: Clicks is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Clicks (Clicks Health) is an AI-native operations company that deploys AI agents to run
+  complete healthcare back-office workflows. Its agents handle revenue cycle management
+  (eligibility and insurance verification, prior authorization, claim status checking,
+  denials management, and patient refunds), patient access, and other repetitive tasks by
+  working inside a customer's existing EHR, practice-management, and payer systems either
+  through APIs or the same screens staff use. Clicks integrates with major health IT
+  platforms including Epic, Cerner, athenahealth, eClinicalWorks, ModMed, NextGen Healthcare,
+  and MEDITECH, and states it is SOC 2 Type II audited and HIPAA compliant with end-to-end
+  encryption for PHI. Founded in 2025, headquartered in Switzerland, and backed by
+  Y Combinator (F2025).
 url: https://raw.githubusercontent.com/api-evangelist/clicks/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.goclicks.ai/opengraph-image?8641e0259682752b
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +32,55 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Revenue Cycle Management
+- AI Agents
+- Automation
+- Back Office
+- Health IT
+- BPO
 apis: []
+common:
+- type: DomainSecurity
+  url: security/clicks-domain-security.yml
+- type: Website
+  url: https://goclicks.ai/
+- type: Login
+  url: https://clicks-v3-prod.us.auth0.com/u/login
+- type: Blog
+  url: https://goclicks.ai/news
+- type: ChangeLog
+  url: https://goclicks.ai/changelog
+- type: ChangeLog
+  name: Clicks changelog (structured)
+  url: changelog/clicks-changelog.yml
+- type: StatusPage
+  url: https://goclicks.ai/status
+- type: Compliance
+  url: https://goclicks.ai/security
+- type: TrustCenter
+  name: Clicks trust/security posture
+  url: security/clicks-trust-center.yml
+- type: Conformance
+  url: conformance/clicks-conformance.yml
+- type: PrivacyPolicy
+  url: https://goclicks.ai/privacy-policy
+- type: TermsOfService
+  url: https://goclicks.ai/terms-of-service
+- type: Support
+  url: mailto:contact@goclicks.ai
+- type: LinkedIn
+  url: https://www.linkedin.com/company/clicks-ai/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
